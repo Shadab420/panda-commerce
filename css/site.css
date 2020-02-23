@@ -23,3 +23,51 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+
+.categories h1{
+    color: white;
+}
+
+.categories img{
+    width: 100px;
+}
+
+.category-watch, .category-bag, .category-shoe{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.category-watch{
+    background-image: linear-gradient(to right, orange, yellow 100%);
+}
+
+.category-bag{
+    background-image: linear-gradient(to right, red, pink 100%);
+}
+
+.category-shoe{
+    background-image: linear-gradient(to right, cyan, blue 100%);
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+
+.card-footer{
+    background: white;
+    border-top: none;
+}
+
+.subscribe{
+    height: 300px;
+}
+
+.subscribe h6{
+    color: gray;
+}
+
+footer{
+    text-align: center;
+}
